@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Default Dashboard | AppStack - React Admin & Dashboard Template</title>
+    <!-- font-awseome -->
+    <link rel="stylesheet" href="assets/font-awesome/all.min.css" class="rel">
+    <!-- bootstarp -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" class="rel">
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/style.css" class="rel">
+</head>
+
+<body>
+    <div class="d-flex g-0">
+        <aside class="sidebar">
+            <a class="sidebar-brand" href="index.html">
+                <img src="asset/image/untitled.png" alt="">
+                <span class="align-middle me-3">AppStack</span></a>
+            <ul>
+                <li class="sidebar-header">Pages</li>
+                <li>
+                    <a class="sidebar-link" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                        aria-expanded="false" aria-controls="collapseExample">
+                        <i class="fa-solid fa-sliders"></i>
+                        <span class="align-middle">Dashboards</span><span size="18"
+                            class="badge-sidebar-primary badge">5</span>
+                    </a>
+                    <div class="collapse" id="collapseExample">
+                        <div class="">
+                            <ul class="sidebar-dropdown list-unstyled collapse show">
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="index.html" aria-current="page">
+                                        <span class="align-middle">Default</span></a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link">
+                                        <span class="align-middle">Analytics</span></a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link">
+                                        <span class="align-middle">SaaS</span></a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link">
+                                        <span class="align-middle">Social</span></a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link">
+                                        <span class="align-middle">Crypto</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a class="sidebar-link collapsed" data-bs-toggle="collapse" href="#collapseExampleb" role="button"
+                        aria-expanded="false" aria-controls="collapseExampleb">
+                        <i class="fa-solid fa-table-columns"></i>
+                        <span class="align-middle">Pages</span>
+                        <div></div>
+                    </a>
+                    <div class="collapse" id="collapseExampleb">
+                        <ul class="sidebar-dropdown list-unstyled collapse show">
+                            <li class="sidebar-item">
+                                <a aria-current="page" class="sidebar-link">
+                                    <span class="align-middle">Profile</span></a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link">
+                                    <span class="align-middle">Settings</span></a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link" href="clients.html">
+                                    <span class="align-middle">Clients</span></a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link" href="project.html">
+                                    <span class="align-middle">Projects</span></a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link" href="invoice.html">
+                                    <span class="align-middle">Invoice</span></a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link" href="pricing.html">
+                                    <span class="align-middle">Pricing</span></a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link">
+                                    <span class="align-middle">Tasks</span></a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link">
+                                    <span class="align-middle">Chat</span><span size="18"
+                                        class="badge-sidebar-primary badge">New</span></a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link">
+                                    <span class="align-middle">Blank Page</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a class="sidebar-link" data-bs-toggle="collapse" href="#collapseExamplec" role="button"
+                        aria-expanded="false" aria-controls="collapseExamplec">
+                        <i class="fa-solid fa-table-cells-large"></i>
+                        <span class="align-middle">UI Elements</span>
+                        <div></div>
+                    </a>
+                    <div class="collapse" id="collapseExamplec">
+                        <ul class="sidebar-dropdown list-unstyled collapse show">
+                            <li class="sidebar-item">
+                                <a class="sidebar-link">
+                                    <span class="align-middle">Sign In</span></a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link">
+                                    <span class="align-middle">Sign Up</span></a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link">
+                                    <span class="align-middle">Reset Password</span></a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link">
+                                    <span class="align-middle">404 Page</span></a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link">
+                                    <span class="align-middle">500 Page</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a class="sidebar-link"><i class="fa-solid fa-book"></i>
+                        <span class="align-middle">Documentation</span></a>
+                </li>
+
+                <!-- secend bro -->
+                <li class="sidebar-header">Tools &amp; Components</li>
+
+                <!-- first -->
+                <li>
+                    <a class="sidebar-link collapsed" data-bs-toggle="collapse" href="#collapseExampled" role="button"
+                        aria-expanded="false" aria-controls="collapseExampled">
+                        <i class="fa-solid fa-user-group"></i>
+                        <span class="align-middle">Auth</span>
+                        <div></div>
+                    </a>
+                    <div class="collapse" id="collapseExampled">
+                        <ul class="sidebar-dropdown list-unstyled collapse show">
+                            <li class="sidebar-item">
+                                <a class="sidebar-link">
+                                    <span class="align-middle">Alerts</span></a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link">
+                                    <span class="align-middle">Buttons</span></a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link">
+                                    <span class="align-middle">Cards</span></a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link">
+                                    <span class="align-middle">Carousel</span></a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link">
+                                    <span class="align-middle">Embed Video</span></a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link">
+                                    <span class="align-middle">General</span></a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link">
+                                    <span class="align-middle">Grid</span></a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link">
+                                    <span class="align-middle">Modals</span></a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link">
+                                    <span class="align-middle">Offcanvas</span></a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link">
+                                    <span class="align-middle">Tabs</span></a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link">
+                                    <span class="align-middle">Typography</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <!-- second -->
+                <li>
+                    <a class="sidebar-link collapsed" data-bs-toggle="collapse" href="#collapseExamplee" role="button"
+                        aria-expanded="false" aria-controls="collapseExamplee">
+                        <i class="fa-regular fa-heart"></i>
+                        <span class="align-middle">Icons</span><span size="18"
+                            class="badge-sidebar-primary badge">1500+</span>
+                        <div></div>
+                    </a>
+                    <div class="collapse" id="collapseExamplee">
+                        <ul class="sidebar-dropdown list-unstyled collapse show">
+                            <li class="sidebar-item">
+                                <a class="sidebar-link">
+                                    <span class="align-middle">Feather</span></a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link">
+                                    <span class="align-middle">Font Awesome</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <!-- thard -->
+                <li>
+                    <a class="sidebar-link collapsed" data-bs-toggle="collapse" href="#collapseExamplef" role="button"
+                        aria-expanded="false" aria-controls="collapseExamplef">
+                        <i class="fa-solid fa-file-circle-check"></i>
+                        <span class="align-middle">Forms</span>
+                        <div></div>
+                    </a>
+                    <div class="collapse" id="collapseExamplef">
+                        <ul class="sidebar-dropdown list-unstyled collapse show">
+                            <li class="sidebar-item">
+                                <a class="sidebar-link">
+                                    <span class="align-middle">Layouts</span></a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link">
+                                    <span class="align-middle">Basic Inputs</span></a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link">
+                                    <span class="align-middle">Input Groups</span></a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link">
+                                    <span class="align-middle">Floating Labels</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a class="sidebar-link"><i class="fa-solid fa-list-ul"></i>
+                        <span class="align-middle">Tables</span></a>
+                </li>
+
+                <li class="sidebar-header">Plugins &amp; Addons</li>
+
+                <li>
+                    <a class="sidebar-link collapsed" data-bs-toggle="collapse" href="#collapseExampleg" role="button"
+                        aria-expanded="false" aria-controls="collapseExampleg"><i
+                            class="fa-solid fa-file-circle-check"></i>
+                        <span class="align-middle">Form Plugins</span>
+                        <div></div>
+                    </a>
+                    <div class="collapse" id="collapseExampleg">
+                        <ul class="sidebar-dropdown list-unstyled collapse show">
+                            <li class="sidebar-item">
+                                <a class="sidebar-link">
+                                    <span class="align-middle">Advanced Inputs</span></a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link">
+                                    <span class="align-middle">Formik</span><span size="18"
+                                        class="badge-sidebar-primary badge">New</span></a>
+                            </li>
+                            <li class="sidebar-item">
+                                <aclass="sidebar-link">
+                                    <span class="align-middle">Editors</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li>
+                    <a class="sidebar-link collapsed" data-bs-toggle="collapse" href="#collapseExampleh" role="button"
+                        aria-expanded="false" aria-controls="collapseExampleh">
+                        <i class="fa-solid fa-list-ul"></i>
+                        <span class="align-middle">Advanced Tables</span>
+                        <div></div>
+                    </a>
+                    <div class="collapse" id="collapseExampleh">
+                        <ul class="sidebar-dropdown list-unstyled collapse show">
+                            <li class="sidebar-item">
+                                <a class="sidebar-link">
+                                    <span class="align-middle">Pagination</span></a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link">
+                                    <span class="align-middle">Column Sorting</span></a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link">
+                                    <span class="align-middle">Column Filtering</span></a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link">
+                                    <span class="align-middle">Row Expanding</span></a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link">
+                                    <span class="align-middle">Row Selection</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li>
+                    <a class="sidebar-link collapsed" data-bs-toggle="collapse" href="#collapseExamplei" role="button"
+                        aria-expanded="false" aria-controls="collapseExamplei"><i class="fa-solid fa-chart-pie"></i>
+                        <span class="align-middle">Charts</span><span size="18"
+                            class="badge-sidebar-primary badge">New</span>
+                        <div></div>
+                    </a>
+                    <div class="collapse" id="collapseExamplei">
+                        <ul class="sidebar-dropdown list-unstyled collapse show">
+                            <li class="sidebar-item">
+                                <a class="sidebar-link">
+                                    <span class="align-middle">Chart.js</span></a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link">
+                                    <span class="align-middle">ApexCharts</span><span size="18"
+                                        class="badge-sidebar-primary badge">New</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a class="sidebar-link" href="#" aria-current="page"><i class="fa-regular fa-bell"></i>
+                        <span class="align-middle">Notifications</span></a>
+                </li>
+
+                <li>
+                    <a class="sidebar-link collapsed" data-bs-toggle="collapse" href="#collapseExamplej" role="button"
+                        aria-expanded="false" aria-controls="collapseExamplej"><i class="fa-solid fa-location-dot"></i>
+                        <span class="align-middle">Maps</span>
+                        <div></div>
+                    </a>
+                    <div class="collapse" id="collapseExamplej">
+                        <ul class="sidebar-dropdown list-unstyled collapse show">
+                            <li class="sidebar-item">
+                                <a class="sidebar-link" href="#">
+                                    <span class="align-middle">Google Maps</span></a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link" href="#">
+                                    <span class="align-middle">Vector Maps</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a class="sidebar-link"><i class="fa-regular fa-calendar"></i>
+                        <span class="align-middle">Calendar</span></a>
+                </li>
+
+                <li>
+                    <a class="sidebar-link collapsed" data-bs-toggle="collapse" href="#collapseExamplek" role="button"
+                        aria-expanded="false" aria-controls="collapseExamplek"><i
+                            class="fa-solid fa-arrow-up-from-bracket"></i>
+                        <span class="align-middle">Multi Level</span>
+                        <div></div>
+                    </a>
+                    <div class="collapse" id="collapseExamplek">
+                        <ul class="sidebar-dropdown list-unstyled collapse show">
+                            <li class="sidebar-item">
+                                <a class="sidebar-link collapsed" data-bs-toggle="collapse" href="#collapseExamplel"
+                                    role="button" aria-expanded="false" aria-controls="collapseExamplel">
+                                    <span class="align-middle">Two Levels</span>
+                                </a>
+                                <div class="collapse" id="collapseExamplel">
+                                    <ul class="sidebar-dropdown list-unstyled collapse show">
+                                        <li class="sidebar-item">
+                                            <a activeclassname="active" class="sidebar-link">
+                                                <span class="align-middle">Item 1</span></a>
+                                        </li>
+                                        <li class="sidebar-item">
+                                            <a activeclassname="active" class="sidebar-link">
+                                                <span class="align-middle">Item 2</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="sidebar-item">
+                                <a class="sidebar-link collapsed" data-bs-toggle="collapse" href="#collapseExamplem"
+                                    role="button" aria-expanded="false" aria-controls="collapseExamplem">
+                                    <span class="align-middle">Three Levels</span>
+                                </a>
+                                <div class="collapse" id="collapseExamplem">
+                                    <ul class="sidebar-dropdown list-unstyled collapse show">
+                                        <li class="sidebar-item">
+                                            <a class="sidebar-link">
+                                                <span class="align-middle">Item 1</span></a>
+                                        </li>
+                                        <li class="sidebar-item">
+                                            <a class="sidebar-link" href="">
+                                                <span class="align-middle">Item 2</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <div class="sidebar-cta">
+                <div class="sidebar-cta-content">
+                    <strong class="d-inline-block mb-2">Monthly Sales Report</strong>
+                    <div class="mb-3 text-sm">
+                        Your monthly sales report is ready for download!
+                    </div>
+                    <div class="d-grid">
+                        <a href="#" class="btn btn-primary" target="_blank" rel="noreferrer">Download</a>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- navbar start -->
+        <div class="main">
+            <nav class="navbar navbar-expand navbar-light"><span class="sidebar-toggle d-flex"><i
+                        class="hamburger align-self-center"></i></span>
+                <form inline="true" class="d-none d-sm-inline-block">
+                    <div class="input-group-navbar input-group"><input placeholder="Search projects…"
+                            aria-label="Search" class="form-control"><button type="button" class="btn"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                            </svg></button></div>
+                </form>
+                <div class="navbar-collapse collapse">
+                    <div class="navbar-align navbar-nav">
+                        <div class="me-2 nav-item dropdown"><a class="nav-link nav-icon dropdown-toggle dropdown-toggle"
+                                id="react-aria7902764160-1" aria-expanded="false">
+                                <div class="position-relative"><svg xmlns="http://www.w3.org/2000/svg" width="18"
+                                        height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                        class="align-middle">
+                                        <path
+                                            d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+                                        </path>
+                                    </svg><span class="indicator">4</span></div>
+                            </a></div>
+                        <div class="me-2 nav-item dropdown"><a class="nav-link nav-icon dropdown-toggle dropdown-toggle"
+                                id="react-aria7902764160-2" aria-expanded="false">
+                                <div class="position-relative"><svg xmlns="http://www.w3.org/2000/svg" width="18"
+                                        height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                        class="align-middle">
+                                        <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+                                        <path d="M18.63 13A17.89 17.89 0 0 1 18 8"></path>
+                                        <path d="M6.26 6.26A5.86 5.86 0 0 0 6 8c0 7-3 9-3 9h14"></path>
+                                        <path d="M18 8a6 6 0 0 0-9.33-5"></path>
+                                        <line x1="1" y1="1" x2="23" y2="23"></line>
+                                    </svg></div>
+                            </a></div>
+                        <div class="me-2 nav-item dropdown"><a class="nav-link nav-flag dropdown-toggle"
+                                id="react-aria7902764160-3" aria-expanded="false"><img src="assets/images/logo/usa.png"
+                                    alt="English"></a></div>
+                        <div class="nav-item dropdown"><span class="d-inline-block d-sm-none"><a
+                                    class="nav-link dropdown-toggle" id="react-aria7902764160-4"
+                                    aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" class="align-middle">
+                                        <circle cx="12" cy="12" r="3"></circle>
+                                        <path
+                                            d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z">
+                                        </path>
+                                    </svg></a></span><span class="d-none d-sm-inline-block"><a
+                                    class="nav-link dropdown-toggle" id="react-aria7902764160-5"><img
+                                        src="assets/images/New folder/avatar.42a86687.jpg"
+                                        class="avatar img-fluid rounded-circle me-1" alt="Chris Wood"><span
+                                        class="text-dark">Chris Wood</span></a></span></div>
+                    </div>
+                </div>
+            </nav>
+            <!-- navbar end -->
+
+            <!-- content start -->
+
+            <div class="content">
+                <div class="p-0 container">
+                    <div class="row">
+                        <div class="col-lg-8">
+
+                            <div class="flex-fill card">
+                                <div class="card-body">
+                                    <div class="d-flex"><img src="assets/images/New folder/avatar-2.6cc481d4.jpg"
+                                            width="56" height="56" class="rounded-circle me-3" alt="Ashley Briggs">
+                                        <div class="flex-grow-1 ms-3"><small class="float-end text-navy">5m ago</small>
+                                            <p class="mb-2"><strong>Ashley Briggs</strong></p>
+                                            <p>Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam
+                                                semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc,
+                                                blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et
+                                                ante
+                                                tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.</p>
+                                            <div class="g-0 mt-1 row">
+                                                <div class="col-6"><img
+                                                        src="assets/images/New folder (2)/unsplash-1.f6b3aeb0.jpg"
+                                                        class="img-fluid pe-1" alt="Unsplash"></div>
+                                                <div class="col-6"><img
+                                                        src="assets/images/New folder (2)/unsplash-2.695077e0.jpg"
+                                                        class="img-fluid ps-1" alt="Unsplash"></div>
+                                            </div><small class="text-muted">Today 7:51 pm</small><br><button
+                                                type="button" class="mt-1 btn btn-danger btn-sm"><svg aria-hidden="true"
+                                                    focusable="false" data-prefix="far" data-icon="heart"
+                                                    class="svg-inline--fa fa-heart fa-w-16 fa-fw " role="img"
+                                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                    <path fill="currentColor"
+                                                        d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z">
+                                                    </path>
+                                                </svg> Like</button>
+                                            <div class="d-flex mt-3">
+                                                <div class="pe-2"><img
+                                                        src="assets/images/New folder/avatar-4.93166a0c.jpg" width="36"
+                                                        height="36" class="rounded-circle me-2" alt="Stacie Hall">
+                                                </div>
+                                                <div class="flex-grow-1 ms-3">
+                                                    <p class="text-muted"><strong>Stacie Hall</strong>: Nam pretium
+                                                        turpis
+                                                        et arcu. Duis arcu tortor, suscipit eget, imperdiet nec,
+                                                        imperdiet
+                                                        iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu,
+                                                        accumsan a, consectetuer eget, posuere ut, mauris.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="d-flex"><img src="assets/images/New folder/avatar-5.b309bbe2.jpg"
+                                            width="56" height="56" class="rounded-circle me-3" alt="Chris Wood">
+                                        <div class="flex-grow-1 ms-3"><small class="float-end text-navy">30m ago</small>
+                                            <p class="mb-2"><strong>Chris Wood</strong></p>
+                                            <p>Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam
+                                                semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc,
+                                                blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et
+                                                ante
+                                                tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.
+                                                Nullam
+                                                quis ante.</p><small class="text-muted">Today 7:21 pm</small><br><button
+                                                type="button" class="mt-1 btn btn-danger btn-sm"><svg aria-hidden="true"
+                                                    focusable="false" data-prefix="far" data-icon="heart"
+                                                    class="svg-inline--fa fa-heart fa-w-16 fa-fw " role="img"
+                                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                    <path fill="currentColor"
+                                                        d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z">
+                                                    </path>
+                                                </svg> Like</button>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="d-flex"><img src="assets/images/New folder/avatar.42a86687.jpg"
+                                            width="56" height="56" class="rounded-circle me-3" alt="Carl Jenkins">
+                                        <div class="flex-grow-1 ms-3"><small class="float-end text-navy">3h ago</small>
+                                            <p class="mb-2"><strong>Carl Jenkins</strong></p><img
+                                                src="assets/images/New folder (2)/unsplash-3.ad504e7b.jpg"
+                                                class="img-fluid" alt="Unsplash"><small class="text-muted">Today 5:12
+                                                pm</small><br><button type="button"
+                                                class="mt-1 btn btn-danger btn-sm"><svg aria-hidden="true"
+                                                    focusable="false" data-prefix="far" data-icon="heart"
+                                                    class="svg-inline--fa fa-heart fa-w-16 fa-fw " role="img"
+                                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                    <path fill="currentColor"
+                                                        d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z">
+                                                    </path>
+                                                </svg> Like</button>
+                                            <div class="d-flex mt-3">
+                                                <div class="pe-2"><img
+                                                        src="assets/images/New folder/avatar-5.b309bbe2.jpg" width="36"
+                                                        height="36" class="rounded-circle me-2" alt="Stacie Hall">
+                                                </div>
+                                                <div class="flex-grow-1 ms-3">
+                                                    <p class="text-muted"><strong>Stacie Hall</strong>: Nam pretium
+                                                        turpis
+                                                        et arcu. Duis arcu tortor, suscipit eget, imperdiet nec,
+                                                        imperdiet
+                                                        iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu,
+                                                        accumsan a, consectetuer eget, posuere ut, mauris.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="d-flex"><img src="assets/images/New folder/avatar.42a86687.jpg"
+                                            width="56" height="56" class="rounded-circle me-3" alt="Ashley Briggs">
+                                        <div class="flex-grow-1 ms-3"><small class="float-end text-navy">4h ago</small>
+                                            <p class="mb-2"><strong>Ashley Briggs</strong></p>
+                                            <p>Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam
+                                                semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc,
+                                                blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et
+                                                ante
+                                                tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.
+                                                Nullam
+                                                quis ante.</p><small class="text-muted">Today 4:21 pm</small><br><button
+                                                type="button" class="mt-1 btn btn-danger btn-sm"><svg aria-hidden="true"
+                                                    focusable="false" data-prefix="far" data-icon="heart"
+                                                    class="svg-inline--fa fa-heart fa-w-16 fa-fw " role="img"
+                                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                    <path fill="currentColor"
+                                                        d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z">
+                                                    </path>
+                                                </svg> Like</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="flex-fill mb-3 card">
+                                <div class="text-center card-body"><img
+                                        src="assets/images/New folder/avatar.42a86687.jpg" alt="Chris Wood"
+                                        class="img-fluid rounded-circle mb-2" width="128" height="128">
+                                    <div class="mb-0 card-title h5">Chris Wood</div>
+                                    <div class="text-muted mb-2">UX Engineer</div>
+                                    <div><button type="button" class="btn btn-primary btn-sm">Follow</button> <button
+                                            type="button" class="btn btn-primary btn-sm"><svg
+                                                xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z">
+                                                </path>
+                                            </svg> Message</button></div>
+                                </div>
+                            </div>
+                            <div class="flex-fill mb-3 card">
+                                <div class="card-header">
+                                    <div class="card-actions float-end">
+                                        <div class="dropdown"><a class="-" id="react-aria1298113466-18"
+                                                aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                    <circle cx="12" cy="12" r="1"></circle>
+                                                    <circle cx="19" cy="12" r="1"></circle>
+                                                    <circle cx="5" cy="12" r="1"></circle>
+                                                </svg></a></div>
+                                    </div>
+                                    <div class="mb-0 card-title h5">Following</div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex"><img src="assets/images/New folder/avatar-5.b309bbe2.jpg"
+                                            width="56" height="56" class="rounded-circle me-2" alt="Chris Wood">
+                                        <div class="flex-grow-1 ms-3">
+                                            <p class="my-1"><strong>Ashley Briggs</strong></p><button type="button"
+                                                class="btn btn-outline-primary btn-sm">Unfollow</button>
+                                        </div>
+                                    </div>
+                                    <hr class="my-2">
+                                    <div class="d-flex"><img src="assets/images/New folder/avatar-2.6cc481d4.jpg"
+                                            width="56" height="56" class="rounded-circle me-2" alt="Carl Jenkins">
+                                        <div class="flex-grow-1 ms-3">
+                                            <p class="my-1"><strong>Carl Jenkins</strong></p><button type="button"
+                                                class="btn btn-outline-primary btn-sm">Unfollow</button>
+                                        </div>
+                                    </div>
+                                    <hr class="my-2">
+                                    <div class="d-flex"><img src="assets/images/New folder/avatar-4.93166a0c.jpg"
+                                            width="56" height="56" class="rounded-circle me-2" alt="Stacie Hall">
+                                        <div class="flex-grow-1 ms-3">
+                                            <p class="my-1"><strong>Stacie Hall</strong></p><button type="button"
+                                                class="btn btn-outline-primary btn-sm">Unfollow</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex-fill mb-3 card">
+                                <div class="card-header">
+                                    <div class="card-actions float-end">
+                                        <div class="dropdown"><a class="-" id="react-aria1298113466-19"
+                                                aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                    <circle cx="12" cy="12" r="1"></circle>
+                                                    <circle cx="19" cy="12" r="1"></circle>
+                                                    <circle cx="5" cy="12" r="1"></circle>
+                                                </svg></a></div>
+                                    </div>
+                                    <div class="mb-0 card-title h5">Activities</div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex"><img src="assets/images/New folder/avatar-2.6cc481d4.jpg"
+                                            width="36" height="36" class="rounded-circle me-2" alt="Ashley Briggs">
+                                        <div class="flex-grow-1 ms-3"><small class="float-end text-navy">5m
+                                                ago</small><strong>Ashley Briggs</strong> started following
+                                            <strong>Stacie
+                                                Hall</strong><br><small class="text-muted">Today 7:51 pm</small><br>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="d-flex"><img src="assets/images/New folder/avatar-4.93166a0c.jpg"
+                                            width="36" height="36" class="rounded-circle me-2" alt="Chris Wood">
+                                        <div class="flex-grow-1 ms-3"><small class="float-end text-navy">30m
+                                                ago</small><strong>Chris Wood</strong> posted something on
+                                            <strong>Stacie
+                                                Hall</strong>'s timeline<br><small class="text-muted">Today 7:21
+                                                pm</small>
+                                            <div class="border text-sm text-muted p-2 mt-1">Etiam rhoncus. Maecenas
+                                                tempus,
+                                                tellus eget condimentum rhoncus, sem quam..</div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="d-flex"><img src="assets/images/New folder/avatar-5.b309bbe2.jpg"
+                                            width="36" height="36" class="rounded-circle me-2" alt="Stacie Hall">
+                                        <div class="flex-grow-1 ms-3"><small class="float-end text-navy">1h
+                                                ago</small><strong>Stacie Hall</strong> posted a new blog<br><small
+                                                class="text-muted">Today 6:35 pm</small></div>
+                                    </div>
+                                    <hr>
+                                    <div class="d-flex"><img src="assets/images/New folder/avatar.42a86687.jpg"
+                                            width="36" height="36" class="rounded-circle me-2" alt="Carl Jenkins">
+                                        <div class="flex-grow-1 ms-3"><small class="float-end text-navy">3h
+                                                ago</small><strong>Carl Jenkins</strong> posted two photos on
+                                            <strong>Stacie
+                                                Hall</strong>'s timeline<br><small class="text-muted">Today 5:12
+                                                pm</small>
+                                            <div class="row no-gutters mt-1">
+                                                <div class="col-6 col-md-4 col-lg-4 col-xl-3"><img
+                                                        src="assets/images/New folder (2)/unsplash-1.f6b3aeb0.jpg"
+                                                        class="img-fluid pe-2" alt="Unsplash"></div>
+                                                <div class="col-6 col-md-4 col-lg-4 col-xl-3"><img
+                                                        src="assets/images/New folder (2)/unsplash-2.695077e0.jpg"
+                                                        class="img-fluid pe-2" alt="Unsplash"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="d-flex"><img src="assets/images/New folder/avatar-4.93166a0c.jpg"
+                                            width="36" height="36" class="rounded-circle me-2" alt="Stacie Hall">
+                                        <div class="flex-grow-1 ms-3"><small class="float-end text-navy">1d
+                                                ago</small><strong>Stacie Hall</strong> posted a new blog<br><small
+                                                class="text-muted">Yesterday 2:43 pm</small></div>
+                                    </div>
+                                    <hr>
+                                    <div class="d-flex"><img src="assets/images/New folder/avatar.42a86687.jpg"
+                                            width="36" height="36" class="rounded-circle me-2" alt="Chris Wood">
+                                        <div class="flex-grow-1 ms-3"><small class="float-end text-navy">1d
+                                                ago</small><strong>Chris Wood</strong> started following <strong>Stacie
+                                                Hall</strong><br><small class="text-muted">Yesterdag 1:51 pm</small>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="d-grid"><button type="button" class="btn btn-primary">Load more</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <footer class="footer">
+                    <div class="container-fluid">
+                        <div class="text-muted row">
+                            <div class="text-start col-6">
+                                <ul class="list-inline">
+                                    <li class="list-inline-item"><span class="text-muted" href="#">Support</span></li>
+                                    <li class="list-inline-item"><span class="text-muted" href="#">Help Center</span>
+                                    </li>
+                                    <li class="list-inline-item"><span class="text-muted" href="#">Privacy</span></li>
+                                    <li class="list-inline-item"><span class="text-muted" href="#">Terms of
+                                            Service</span></li>
+                                </ul>
+                            </div>
+                            <div class="text-end col-6">
+                                <p class="mb-0">© 2023 - <span href="/" class="text-muted">MonilS</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <!-- content end -->
+
+    <script src="assets/js/sidebars.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/chart.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/jquery-3.6.3.js"></script>
+    <script>
+        $('document').ready(function () {
+            $('.tog').click(function () {
+                $('aside').toggleClass('mmm')
+            });
+        })
+    </script>
+</body>
+
+</html>
